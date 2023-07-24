@@ -2,7 +2,7 @@ version: 1.2
 tools:
    - subclass: cwl
      primaryDescriptorPath: /tools/Dockstore.cwl
-     name: md5sum
+     name: md5sum/with/slashes
 workflows:
    - subclass: cwl
      primaryDescriptorPath: /workflows/HelloWorld.cwl
